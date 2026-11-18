@@ -21,7 +21,7 @@ jobs:
         working-directory: ./khoa-video
 
       - name: Render Video
-        run: npx remotion render src/index.ts video out/khoa.mp4
+        run: npx remotion render src/index.ts Story out/khoa.mp4
         working-directory: ./khoa-video
 
       - name: Upload Video Artifact
